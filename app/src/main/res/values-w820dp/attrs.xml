@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GridItemView">
+        <attr name="cropName" format="string" />
+        <attr name="cropImage" format="string" />
+    </declare-styleable>
+</resources>
