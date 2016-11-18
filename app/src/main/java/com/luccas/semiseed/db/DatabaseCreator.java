@@ -5,12 +5,28 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 /**
- * Created by lfo on 18/11/2016.
+ * Created by lfo and O2junior on 18/11/2016.
  */
 
 public class DatabaseCreator extends SQLiteOpenHelper {
     private static final String DB_NAME = "seed.db";
     private static final int DB_VERSION = 1;
+    //planta
+     static final String TABELA_PLANTA = "planta";
+     static final String ID_Planta = "id_planta";
+     static final String AGUA = "agua";
+     static final String ADUBO = "adubo";
+     static final String IMAGEM = "imagem";
+     static final String TP_PLANTA = "tipoPlanta";
+    //dicas
+     static final String TABELA_DICAS = "dicas";
+     static final String ID_Dicas = "id_dicas";
+     static final String DICA_TEXTO = "dicaTexto";
+    static final String DICA_TP_PLANTA = "tipoPlanta";
+    //TipoPlanta
+     static final String TABELA_TP_PLANTA = "tipo_planta";
+     static final String ID_TP_PLANTA = "id_tpplanta";
+     static final String NOME_TP_PLANTA = "nome";
 
     public DatabaseCreator(Context context) {
         super(context, DB_NAME, null, DB_VERSION);

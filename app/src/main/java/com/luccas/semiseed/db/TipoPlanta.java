@@ -16,4 +16,10 @@ public class TipoPlanta {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public int getID() {
+        return id;
+    }
+
 }
+
